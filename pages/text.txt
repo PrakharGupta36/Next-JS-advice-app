@@ -1,0 +1,5 @@
+[{…}]
+  0:
+    slip:
+      advice: "Give up your seat for someone who needs it."
+      id: 110

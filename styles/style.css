@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: Spartan;
+}
+
+body {
+  max-width: 100%;
+  overflow: hidden;
+  background-color: #202632;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: grid;
+  place-items: center;
+  color: #7dd4b4;
+  text-align: center;
+  background-color: #313a49;
+  width: 50%;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  gap: 1rem;
+  box-shadow: 1px 1px 56px 10px rgba(0, 0, 0, 0.45);
+}
+
+.title {
+  color: #d3e0eb;
+  font-size: 1.875rem;
+  width: 75%;
+  line-height: 3rem;
+  margin: 0 auto;
+  transition: all 1s;
+}
+
+button {
+  background: #53ffab;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+button:hover {
+  box-shadow: 2px 3px 30px 4px #53ffab;
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    width: 80%;
+  }
+  .title {
+    width: 100%;
+  }
+}
